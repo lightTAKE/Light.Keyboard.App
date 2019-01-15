@@ -19,3 +19,174 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+End-User License Agreement for Logitech Gaming LED SDK
+THIS END-USER LICENSE AGREEMENT FOR LOGITECH GAMING LED SDK ( “AGREEMENT”) 
+IS A LEGAL AGREEMENT BETWEEN YOU, EITHER AN INDIVIDUAL OR LEGAL ENTITY (“YOU”)  
+AND LOGITECH EUROPE S.A. (“LOGITECH”) FOR USE OF THE LOGITECH GAMING LED SOFTWARE
+DEVELOPMENT KIT, WHICH INCLUDES COMPUTER SOFTWARE AND RELATED MEDIA AND 
+DOCUMENTATION (HEREINAFTER “SDK”). BY DOWNLOADING, INSTALLING, OR OTHERWISE USING
+THIS SDK, YOU ARE AGREEING TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT.  
+IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF THIS AGREEMENT, 
+THEN YOU MUST STOP USING THE SDK AND DESTROY ANY COPIES OF THE SDK IN YOUR POSSESSION OR CONTROL. 
+
+1   License Grant. Subject to the terms and conditions contained in this Agreement, 
+Logitech grants You a limited, non-exclusive, royalty-free, non-transferable, 
+non-sublicensable, world-wide, revocable license to: 
+(i) install and use an unlimited number of copies of the SDK on Your computers 
+solely for incorporation of the SDK into Your program or software 
+(“Developer Software”) and (ii) to distribute the SDK to an end user solely as 
+part of the Developer Software.  No other license under any patent, copyright, 
+trade secret, trademark or other intellectual property right is granted to or 
+conferred upon You by this Agreement. All other rights are reserved to Logitech. 
+
+2   Restrictions.  When using the SDK, You shall not: 
+
+(a)   reproduce incomplete copies of the SDK; 
+(b)   distribute the SDK as a stand-alone product or make the SDK available for 
+download via Your website or a third party’s website;  
+(c)   modify the SDK or alter any copyright, trademark, or legal notice contained
+in the SDK;  
+(d)   include the SDK in malicious, deceptive, or unlawful programs or applications; and 
+(e)   reverse engineer, decompile or disassemble any portion of the SDK, 
+except and only to the extent that this limitation is expressly prohibited by applicable law. 
+
+3   Feedback.  At Your option, You may provide reasonable feedback to Logitech, 
+including but not limited to usability, bug reports and test results, 
+with respect to the SDK.  All bug reports, test results and other feedback 
+provided to Logitech by You shall be the property of Logitech and may be used by Logitech for any purpose. 
+
+4   Automatic Updates.  Logitech is not obligated to provide technical support or updates 
+to You for the SDK provided to You pursuant to this Agreement.  However, Logitech may, 
+in its sole discretion, provide further pre-release versions, technical support, 
+updates and/or supplements (“Updates”) to You without providing any additional notice 
+or receiving any additional consent, in which case such Updates shall be deemed to be 
+included in the “SDK” and shall be governed by this Agreement, unless other terms of use 
+are provided in writing by Logitech with such Updates.  
+
+5   Ownership. The SDK is licensed, not sold, to You for use only under the terms and 
+conditions of this Agreement.  Logitech retain all right, title, and interest, in and 
+to the SDK and all intellectual property rights therein.  The SDK is protected by 
+intellectual property laws and international treaties, including U.S. copyright law and 
+international copyright treaties.  All rights not expressly granted by Logitech are reserved. 
+
+6   Indemnification.  You agree to defend, indemnify and hold harmless Logitech and its 
+shareholders, directors, officers, employees and agents (collectively, the “Indemnified Party”)
+against any and all losses, liabilities, damages, claims, administrative actions, costs of 
+litigation and attorney’s fees as may be incurred in defending any civil, criminal, or 
+administrative action brought against the Indemnified Party that may arise or result from 
+(i) Your breach or alleged breach of any provision of this EULA; (ii) third party claims 
+that the Developer Software incorporated with the SDK infringes or misappropriates intellectual 
+property rights of a third party; or  (iii) Your failure to comply with any applicable federal,
+state or local law, regulations in the performance of its obligations under this Agreement. 
+
+7   Disclaimer of Warranty. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LOGITECH PROVIDE
+THE SDK (IF ANY) “AS IS,” WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND.   LOGITECH EXPRESSLY
+DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD-PARTY RIGHTS 
+WITH RESPECT TO THE SDK AND ANY WARRANTIES OF NON-INTERFERENCE OR ACCURACY OF INFORMATIONAL CONTENT. 
+LOGITECH DOES NOT WARRANT AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE SDK, THAT THE FUNCTIONS 
+CONTAINED IN THE SDK WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE SDK OR SERVICES WILL BE 
+UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE SDK OR SERVICES WILL BE CORRECTED. NO LOGITECH 
+AGENT, OR EMPLOYEE IS AUTHORIZED TO MAKE ANY MODIFICATION, EXTENSION, OR ADDITION TO THIS WARRANTY.  
+Some jurisdictions, such as New Jersey, do not allow exclusions of implied warranties or limitations 
+on applicable statutory rights of consumers, so the above exclusions and limitations do not apply in 
+New Jersey and may not apply to You. 
+
+8   Limitation of Liability.  IN NO EVENT WILL LOGITECH OR ITS LICENSORS BE LIABLE FOR ANY COSTS OF
+PROCUREMENT OF SUBSTITUTE PRODUCTS OR SERVICES, LOST PROFITS, LOSS OF INFORMATION OR DATA, OR ANY 
+OTHER SPECIAL, INDIRECT, CONSEQUENTIAL, OR INCIDENTAL DAMAGES ARISING IN ANY WAY OUT OF THE SALE OF, 
+USE OF, OR INABILITY TO USE THE SDK OR ANY LOGITECH PRODUCT OR SERVICE, EVEN IF LOGITECH HAS BEEN 
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN NO CASE SHALL LOGITECH'S TOTAL LIABILITY EXCEED THE 
+ACTUAL MONEY PAID FOR THE SDK GIVING RISE TO THE LIABILITY.    The foregoing limitations will apply 
+even if the above stated remedy fails of its essential purpose. Some jurisdictions, such as New Jersey, 
+do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation
+or exclusion may not apply in New Jersey and may not apply to You. The above limitations will not apply 
+in case of personal injury where and to the extent that applicable law requires such liability. 
+
+9   SDK Limitations. THE SDK IS NOT INTENDED FOR USE IN THE OPERATIONS OF NUCLEAR FACILITIES, AIRCRAFT 
+NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL SYSTEMS, MEDICAL DEVICES OR OTHER EQUIPMENT
+IN WHICH THE FAILURE OF THE SDK COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL 
+DAMAGE.  YOU ACKNOWLEDGE THAT THE SDK IS NOT CERTIFIED FOR EMERGENCY PURPOSE AND SHOULD NOT BE USED FOR 
+THIS PURPOSE. LOGITECH DOES NOT MONITOR EMERGENCY NOTIFICATIONS, AND IS NOT RESPONSIBLE FOR DISPATCHING 
+EMERGENCY SERVICES TO YOUR HOME. 
+
+10  U.S. Government Rights. Use, duplication, or disclosure of the software contained in the SDK by 
+the U.S. Government is subject to restrictions set forth in this Agreement and as provided in 
+DFARS 227.7202-1(a) and 227.7202-3(a) (1995), DFARS 252.227-7013(c)(1)(ii) (OCT 1988) FAR 12.212(a) (1995), 
+FAR 52.227-19, or FAR 52.227-14 (ALT III), as applicable. Logitech Inc. 7600 Gateway Blvd, Newark, CA 94560. 
+
+11  Export Law Assurances.  You agree and certify that neither the SDK nor any other technical data 
+received from Logitech will be exported outside the United States except as authorized and as permitted 
+by the laws and regulations of the United States.  If You have rightfully obtained the SDK outside of 
+the United States, You agree that You will not re-export the SDK nor any other technical data received 
+from Logitech, except as permitted by the laws and regulations of the United States and the laws and 
+regulations of the jurisdiction in which You obtained the SDK. 
+
+12  Termination. This Agreement is effective until terminated. Upon any violation of any of the provisions
+of this Agreement, Your rights to use the Logitech SDK shall automatically terminate and all copies of 
+the SDK destroyed. You may also terminate this Agreement at any time by destroying all copies of the SDK
+in Your possession or control.  If Logitech makes a request via public announcement or press release to 
+stop using the copies of the SDK, You will comply immediately with this request.  The provisions of 
+paragraphs 5, 6, 7, 8, 9, 12, 13, 14, and 15 will survive any termination of this Agreement. 
+
+13  Agents and Third Party Purchasers.  If You are downloading the SDK on behalf of another person 
+or entity, You represent and warrant that you have the authority to bind the party or entity for 
+which You are downloading the SDK to the terms and conditions of this Agreement. You represent that 
+You are of sufficient legal age in Your jurisdiction to use or access the SDK and to enter into this Agreement. 
+
+14  Controlling Law; Severability. If You are in the U.S.A., this Agreement will be exclusively 
+governed by and construed in accordance with the laws of the United States and the State of California, 
+without regard to or application of its choice of law rules or principles. If You reside outside the U.S.A., 
+this Agreement will be exclusively governed by the laws of Switzerland. If any provision of 
+this Agreement is found to be invalid, the parties agree nevertheless that the parties’ 
+intentions as reflected in the provision, and the other provisions of this Agreement shall remain 
+in full force and effect.
+
+15  Entire Agreement; Governing Language.  This Agreement sets forth the entire agreement 
+between You and Logitech and supersedes all prior agreements, written or oral, with respect to the SDK. 
+Any translation of this Agreement is done for local requirements and in the event of an inconsistency 
+between the English and any non-English version, the English version of this Agreement will govern.
+______________________________________
+ADDITIONAL INFORMATION FOR MAC OS ONLY
+ADDITIONAL TERMS FOR MAC APPLICATION SOFTWARE If Yu are using the SDK on any Mac Device, 
+in addition to the above, the following terms and conditions also apply to Your use of the SDK:
+
+A.  Acknowledgement.  The terms and conditions of this Agreement are concluded 
+between You and Logitech only, and not with Apple, Inc. (“Apple”).  In addition, 
+Logitech, not Apple, is solely responsible for the SDK and the content thereof. 
+You agree to comply with any applicable third party terms of agreement when using the SDK.  
+You and Logitech acknowledge and agree that Apple, and Apple’s subsidiaries, 
+are third party beneficiaries of this Agreement, and that, upon Your acceptance of 
+the terms and conditions of this Agreement, Apple will have the right 
+(and will be deemed to have accepted the right) to enforce this Agreement 
+against You as a third party beneficiary thereof.  
+
+B.  Maintenance and Support.   You and Logitech acknowledge that Apple has 
+no obligation whatsoever to furnish any maintenance and support services with respect to the SDK. 
+
+C.  Warranty.  To the maximum extent permitted by applicable law, 
+Apple will have no warranty obligation whatsoever with respect to the SDK, 
+and any other claims, losses, liabilities, damages, costs or expenses attributable 
+to any failure to conform to any warranty will be Logitech’s sole responsibility. 
+
+D.  Product Claims. You and Logitech acknowledge that in the event of 
+any third party claim that the SDK or Your possession and use of the SDK infringes 
+that third party’s intellectual property rights, Logitech, not Apple, 
+will be solely responsible for the investigation, defense, settlement and 
+discharge of any such intellectual property infringement claim. 
+
+E.  Intellectual Property Rights.  Logitech, not Apple, is responsible 
+for addressing any claims of the end-user or any third party relating to the SDK 
+or Your possession and/or use of that SDK, including, but not limited to: 
+(i) product liability claims; 
+(ii) any claim that the SDK fails to conform to any applicable legal or regulatory requirement; and 
+(iii) claims arising under consumer protection or similar legislation. 
+
+F.  Legal Compliance.  You represent and warrant that 
+(i) You are not located in a country that is subject to a U.S. 
+Government embargo, or that has been designated by the U.S. Government as a “terrorist supporting” country; and 
+(ii) You are not listed on any U.S. Government list of prohibited or restricted parties.  
+If You have questions, complaints or claims regarding the SDK, 
+please direct them to devtechsupport@logitech.com. 
+Logitech Europe S.A.’s address is Quartier de l'Innovation, Daniel Borel Innovation Center, CH-1015 Lausanne, Switzerland.
