@@ -47,18 +47,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\RandomColor.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Helpers\IKeyboardMap.cs" />
-    <Compile Include="Helpers\KeyboardMap.cs" />
+    <Compile Include="Core\IKeyMap.cs" />
+    <Compile Include="Core\Key.cs" />
+    <Compile Include="Core\KeyCoordinate.cs" />
+    <Compile Include="Core\KeyMap.cs" />
     <Compile Include="Helpers\KeyListenerApi.cs" />
+    <Compile Include="Helpers\ManhattanDistance.cs" />
+    <Compile Include="Helpers\ManhattanKey.cs" />
     <Compile Include="Helpers\VirtualKeys.cs" />
-    <Compile Include="KeyboardBehaviours\IKeyboardBehaviour.cs" />
-    <Compile Include="KeyboardBehaviours\RandomLightsOnKeyPress.cs" />
+    <Compile Include="Core\Color.cs" />
+    <Compile Include="KeyboardBehaviors\RandomColorBehaviour.cs" />
+    <Compile Include="KeyboardBehaviors\IKeyboardBehaviour.cs" />
+    <Compile Include="KeyboardBehaviors\KeyboardBehaviour.cs" />
+    <Compile Include="KeyboardBehaviors\RandomLightsOnKeyPress.cs" />
+    <Compile Include="KeyboardBehaviors\RippleBehaviour.cs" />
     <Compile Include="Logitech\DeviceType.cs" />
     <Compile Include="Logitech\KeyNames.cs" />
     <Compile Include="Logitech\LogitechGSDK.cs" />

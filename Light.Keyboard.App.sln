@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light.Keyboard.App", "Light.Keyboard.App\Light.Keyboard.App.csproj", "{A1D92540-A617-428A-AC0C-999F43395849}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light.Keyboard.App.Tests", "Light.Keyboard.App.Tests\Light.Keyboard.App.Tests.csproj", "{8A8E5CD5-12F8-443E-B797-A31FA23FCFE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A1D92540-A617-428A-AC0C-999F43395849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1D92540-A617-428A-AC0C-999F43395849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1D92540-A617-428A-AC0C-999F43395849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8E5CD5-12F8-443E-B797-A31FA23FCFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8E5CD5-12F8-443E-B797-A31FA23FCFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8E5CD5-12F8-443E-B797-A31FA23FCFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8E5CD5-12F8-443E-B797-A31FA23FCFE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

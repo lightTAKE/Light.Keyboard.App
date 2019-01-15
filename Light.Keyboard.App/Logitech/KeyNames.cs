@@ -52,7 +52,7 @@
         P = 0x19,
         OPEN_BRACKET = 0x1A,
         CLOSE_BRACKET = 0x1B,
-        BACKSLASH = 0x2B,
+        BACKSLASH = 0x5D,
         KEYBOARD_DELETE = 0x153,
         END = 0x14F,
         PAGE_DOWN = 0x151,
