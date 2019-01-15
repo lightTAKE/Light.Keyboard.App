@@ -88,9 +88,9 @@ namespace Light.Keyboard.App.Core
                 new Key(KeyNames.SEMICOLON, 10, 3),
                 new Key(KeyNames.APOSTROPHE, 11, 3),
                 new Key(KeyNames.BACKSLASH, 12, 3),
-                new Key(KeyNames.NUM_FOUR, 13, 3),
-                new Key(KeyNames.NUM_FIVE, 14, 3),
-                new Key(KeyNames.NUM_SIX, 15, 3),
+                new Key(KeyNames.NUM_FOUR, 17, 3),
+                new Key(KeyNames.NUM_FIVE, 18, 3),
+                new Key(KeyNames.NUM_SIX, 19, 3),
 
                 new Key(KeyNames.LEFT_SHIFT, 0, 4),
                 new Key(KeyNames.Z, 1, 4),
