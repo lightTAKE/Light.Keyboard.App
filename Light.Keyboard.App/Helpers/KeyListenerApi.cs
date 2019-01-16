@@ -18,7 +18,8 @@ namespace Light.Keyboard.App.Helpers
         private static HookDel _hookFunction;
         private static KeyHandler _keyHandler;
 
-        private static bool _holding = false;
+        private static int _ilParam = int.MinValue;
+        private static bool _holding;
 
         [DllImport(USER32, CharSet = CharSet.Auto, SetLastError = true)]
         public static extern IntPtr SetWindowsHookEx(int idHook, HookDel lpfn, IntPtr hMod, uint dwThreadId);
@@ -55,7 +56,9 @@ namespace Light.Keyboard.App.Helpers
         private static IntPtr HookFunction(int nCode, IntPtr wParam, IntPtr lParam)
         {
             var iwParam = wParam.ToInt32();
-            if (nCode >= 0 && (iwParam == WM_KEYDOWN || iwParam == WM_SYS_KEYDOWN) && !_holding)
+            var ilParam = Marshal.ReadInt32(lParam);
+
+            if (nCode >= 0 && (iwParam == WM_KEYDOWN || iwParam == WM_SYS_KEYDOWN) && (!_holding || _ilParam != ilParam))
             {
                 _holding = true;
                 _keyHandler(wParam, lParam);
@@ -65,6 +68,7 @@ namespace Light.Keyboard.App.Helpers
                 _holding = false;
             }
 
+            _ilParam = ilParam;
             return CallNextHookEx(_hook, nCode, wParam, lParam);
         }
     }
