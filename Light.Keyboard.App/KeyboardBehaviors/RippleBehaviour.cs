@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Light.Keyboard.App.Core;
@@ -30,34 +31,22 @@ namespace Light.Keyboard.App.KeyboardBehaviors
             var manhattanKeys = _manhattanDistance.GetManhattanDistances(PressedKey, KeyMap.Keys).ToList();
 
             var maxDistance = manhattanKeys.Max(m => m.Distance);
-            for (var i = 0; i < maxDistance; i++)
+            for (var i = 0; i <= maxDistance + 1; i++)
             {
-                var keys = manhattanKeys.Where(m => m.Distance == i).ToList();
-                if (keys.Any())
-                {
-                    foreach (var key in keys)
-                    {
-                        React(key, _rippleColor1);
-                    }
-
-                    if (i != maxDistance)
-                    {
-                        var nextKeys = manhattanKeys.Where(m => m.Distance == i + 1).ToList();
-                        foreach (var key in nextKeys)
-                        {
-                            React(key, _rippleColor2);
-                        }
-                    }
-
-                    await Task.Delay(50);
-                    LogitechGSDK.LogiLedSetLighting(_color.Red, _color.Green, _color.Blue);
-                }
+                React(manhattanKeys, i - 1, _color);
+                React(manhattanKeys, i, _rippleColor1);
+                React(manhattanKeys, i + 1, _rippleColor2);
+                await Task.Delay(50);
             }
         }
 
-        private void React(Key key, Color color)
+        private void React(IEnumerable<ManhattanKey> manhattanKeys, int distance, Color color)
         {
-            LogitechGSDK.LogiLedSetLightingForKeyWithKeyName(key.Name, color.Red, color.Green, color.Blue);
+            var keys = manhattanKeys.Where(m => m.Distance == distance);
+            foreach (var key in keys)
+            {
+                LogitechGSDK.LogiLedSetLightingForKeyWithKeyName(key.Name, color.Red, color.Green, color.Blue);
+            }
         }
     }
 }
