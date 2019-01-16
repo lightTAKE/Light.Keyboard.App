@@ -6,14 +6,19 @@ namespace Light.Keyboard.App.Helpers
 {
     public class KeyListenerApi
     {
-        internal const string ADVAPI32 = "advapi32.dll";
-        internal const string KERNEL32 = "kernel32.dll";
-        internal const string USER32 = "user32.dll";
-        internal const int LowLevelKeyboardHook = 13;
+        private const string KERNEL32 = "kernel32.dll";
+        private const string USER32 = "user32.dll";
+        private const int LowLevelKeyboardHook = 13;
+        private const int WM_KEYDOWN = 0x100;
+        private const int WM_KEYUP = 0x101;
+        private const int WM_SYS_KEYDOWN = 0x104;
+        private const int WM_SYS_KEYUP = 0x105;
 
         private static IntPtr _hook = IntPtr.Zero;
         private static HookDel _hookFunction;
         private static KeyHandler _keyHandler;
+
+        private static bool _holding = false;
 
         [DllImport(USER32, CharSet = CharSet.Auto, SetLastError = true)]
         public static extern IntPtr SetWindowsHookEx(int idHook, HookDel lpfn, IntPtr hMod, uint dwThreadId);
@@ -34,8 +39,8 @@ namespace Light.Keyboard.App.Helpers
 
         public static void CreateHook(KeyHandler keyHandler)
         {
-            var currentProcces = Process.GetCurrentProcess();
-            var module = currentProcces.MainModule;
+            var currentProcess = Process.GetCurrentProcess();
+            var module = currentProcess.MainModule;
 
             _hookFunction = HookFunction;
             _keyHandler = keyHandler;
@@ -49,11 +54,15 @@ namespace Light.Keyboard.App.Helpers
 
         private static IntPtr HookFunction(int nCode, IntPtr wParam, IntPtr lParam)
         {
-            int iwParam = wParam.ToInt32();
-            //depending on what you want to detect you can either detect keypressed or keyrealased also with  a bit tweaking keyclicked.
-            if (nCode >= 0 && (iwParam == 0x100 || iwParam == 0x104)) //0x100 = WM_KEYDOWN, 0x104 = WM_SYSKEYDOWN
+            var iwParam = wParam.ToInt32();
+            if (nCode >= 0 && (iwParam == WM_KEYDOWN || iwParam == WM_SYS_KEYDOWN) && !_holding)
             {
+                _holding = true;
                 _keyHandler(wParam, lParam);
+            }
+            else if (nCode >= 0 && (iwParam == WM_KEYUP || iwParam == WM_SYS_KEYUP))
+            {
+                _holding = false;
             }
 
             return CallNextHookEx(_hook, nCode, wParam, lParam);
